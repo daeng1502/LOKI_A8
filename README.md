@@ -2,7 +2,8 @@
 Repository Untuk Pengumpulan Project Tugas Besar Mata Kuliah Pemograman Web 
 
 Kelompok 8
-\nAnggota Kelompok : 
+
+Anggota Kelompok : 
 1. Taufik Hidayat           2011521001
 2. Daeng Febrino            2011521019
 3. Vallen Adithya Rekhsana  2011522017
