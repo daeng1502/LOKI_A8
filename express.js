@@ -16,5 +16,9 @@ app.get('/', function(req, res){
   res.send('silakan tuliskan nama user');
 });
 
+app.get('/', function(req, res){
+  res.send('test 1');
+});
+
 
 app.listen(3000)
