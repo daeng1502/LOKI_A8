@@ -1,4 +1,7 @@
 {
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
   "name": "loki_a8",
   "version": "1.0.0",
   "description": "Repository Untuk Pengumpulan Project Tugas Besar Mata Kuliah Pemograman Web",
