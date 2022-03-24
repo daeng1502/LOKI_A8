@@ -2,4 +2,25 @@
   "dependencies": {
     "nodemon": "^2.0.15"
   }
+  "name": "loki_a8",
+  "version": "1.0.0",
+  "description": "Repository Untuk Pengumpulan Project Tugas Besar Mata Kuliah Pemograman Web",
+  "main": "express.js",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daeng1502/LOKI_A8.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daeng1502/LOKI_A8/issues"
+  },
+  "homepage": "https://github.com/daeng1502/LOKI_A8#readme"
 }
