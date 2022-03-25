@@ -1,15 +1,14 @@
 {
   "dependencies": {
-    "nodemon": "^2.0.15"
+    "express": "^4.17.3"
   },
   "name": "loki_a8",
   "version": "1.0.0",
   "description": "Repository Untuk Pengumpulan Project Tugas Besar Mata Kuliah Pemograman Web",
   "main": "express.js",
-  "dependencies": {
-    "express": "^4.17.3"
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
