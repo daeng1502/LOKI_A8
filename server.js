@@ -1,54 +1,19 @@
-var express = require('express')
-var app = express()
+const express = require('express')
+const app = express()
+const port = 5050
+
+app.use(express.json())
 
 app.get('/', function (req, res) {
   res.send('Selamat Datang di Projek LOKI Kelompok 8')
-});
+})
 
-app.get('/', function(req, res){
-  res.send('Silakan login disini');
-});
 
-app.get('/', function(req, res){
-  res.send('Terimakasih dan sampai jumpa');
-});
+const admin = require("./Router/admin")
+app.use('/admin', admin)
 
-app.get('/', function(req, res){
-  res.send('silakan tuliskan nama user');
-});
+app.get("/print", function(req, res) {
+    res.send("Cetak RPS")
+})
 
-app.get('/', function(req, res){
-  res.send('test 1');
-});
-
-app.get('/new', (req,res)=> {
-  res.send("User New Form")
-});
-
-app.get('/profile', (req,res)=> {
-  res.send("Selamat Datang Si A")
-});
-
-app.get('/setting', (req,res)=> {
-  res.send("Pilihlah pengaturan")
-});
-
-app.get('/home', (req,res)=> {
-  res.send("Pagi, All")
-});
-
-app.get('/feedback', (req,res)=> {
-  res.send("Berikan pendapat dan saran anda")
-});
-
-app.get('/dashboard', (req,res)=> {
-  res.send("Dashboard Pengguna")
-});
-
-let user = {
-  "nama":"Vallen",
-  "Alamat" : "PADANG",
-  "umur": 20
-};
-
-app.listen(3000)
+app.listen(5050)
