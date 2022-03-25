@@ -16,9 +16,6 @@ app.get('/', function(req, res){
   res.send('silakan tuliskan nama user');
 });
 
-app.get('/', function(req, res){
-  res.send('test 1');
-});
 
 app.get('/new', (req,res)=> {
   res.send("User New Form")
@@ -30,6 +27,10 @@ app.get('/profile', (req,res)=> {
 
 app.get('/setting', (req,res)=> {
   res.send("Pilihlah pengaturan")
+})
+
+app.get('/security', (req,res)=> {
+  res.send("Ubah kata sandi")
 })
 
 app.get('/home', (req,res)=> {
