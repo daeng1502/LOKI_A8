@@ -1,7 +1,5 @@
 {
   "dependencies": {
-    "express": "^4.17.3"
-  },
   "name": "loki_a8",
   "version": "1.0.0",
   "description": "Repository Untuk Pengumpulan Project Tugas Besar Mata Kuliah Pemograman Web",
@@ -22,4 +20,4 @@
     "url": "https://github.com/daeng1502/LOKI_A8/issues"
   },
   "homepage": "https://github.com/daeng1502/LOKI_A8#readme"
-}
+}}
