@@ -9,7 +9,7 @@ app.get('/', function(req, res){
 });
 
 app.get('/', function(req, res){
-  res.send('Terimakasih dan sampai jumpa');
+  res.send('Terimakasih dan sampai jumpa lagi');
 });
 
 app.get('/', function(req, res){
