@@ -62,4 +62,4 @@ sequelize.define('courses' ,
     {
         type : DataTypes.DATE,
     }
-});
+})
