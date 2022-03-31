@@ -2,7 +2,7 @@
   "dependencies": {
   "name": "loki_a8",
   "version": "1.0.0",
-  "description": "Repository Untuk Pengumpulan Project Tugas Besar Mata Kuliah Pemograman Web",
+  "description": "Repository Untuk Pengumpulan Project Tugas Besar Mata Kuliah Pemograman Web Kelas A",
   "main": "express.js",
   "devDependencies": {
     "nodemon": "^2.0.15"
