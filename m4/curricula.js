@@ -1,7 +1,7 @@
 const { Sequelize, DataTypes, DatabaseError } = require('sequelize');
 const sequelize = new Sequelize("mysql://root@localhost/loki-a8")
 
-sequalize.define('curricula', {
+sequelize.define('curricula', {
 
   id: {
     type: DataTypes.BIGINT,
