@@ -1,5 +1,5 @@
 const { Sequelize, DataTypes } = require('sequelize');
-const sequelize = new Sequelize("mysql://root@localhost/loki_A8")
+const sequelize = new Sequelize("mysql://root@localhost/loki-A8")
 
 sequelize.define('courses' ,
 {
