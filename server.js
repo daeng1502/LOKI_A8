@@ -16,15 +16,15 @@ app.use( express.static( "views" ) );
 
 
 app.get('/', function (req, res) {
-  res.send('Selamat Datang di Projek LOKI Kelompok 8')
+  res.render('index')
 })
 
 
-const admin = require("./Router/admin")
-app.use('/admin', admin)
+// const admin = require("./Router/admin")
+// app.use('/admin', admin)
 
-app.get("/print", function(req, res) {
-    res.send("Cetak RPS")
-})
+// app.get("/print", function(req, res) {
+//     res.send("Cetak RPS")
+// })
 
 app.listen(8000)
