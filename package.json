@@ -2,7 +2,7 @@
   "name": "LOKI_A8",
   "version": "1.0.0",
   "description": "Repository Untuk Pengumpulan Project Tugas Besar Mata Kuliah Pemograman Web",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "nodemon server"
   },
