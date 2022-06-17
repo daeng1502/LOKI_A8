@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 8000
+const port = 42069
 const dotenv = require('dotenv');
 const bodyParser = require('body-parser')
 const cookieParser = require('cookie-parser');
@@ -19,12 +19,20 @@ app.get('/', function (req, res) {
   res.render('index')
 })
 
+app.get('/mahasiswa', function (req, res) {
+  res.render('Mahasiswa/dashboard')
+})
 
-// const admin = require("./Router/admin")
-// app.use('/admin', admin)
+app.get('/mahasiswa/detail-rps', function (req, res) {
+  res.render('Mahasiswa/rps')
+})
 
-// app.get("/print", function(req, res) {
-//     res.send("Cetak RPS")
-// })
+app.get('/admin/home', function (req, res) {
+  res.render('/Admin/home')
+})
 
-app.listen(8000)
+app.get('/admin/home', function (req, res) {
+  res.render('/Admin/home')
+})
+
+app.listen(42069)
