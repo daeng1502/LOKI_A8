@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard LOKI - Mahasiswa</title>
+    <title>List RPS JSI Unand</title>
     
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     
@@ -37,6 +37,7 @@
                 </li>
         </ul>
     </div>
+    <button class="sidebar-toggler btn x"><i data-feather="x"></i></button>
 </div>
         </div>
         <div id="main">
@@ -45,13 +46,14 @@
     <div class="page-title">
         <div class="row">
             <div class="col-12 col-md-6 order-md-1 order-last">
-                <h3>Dashboard LOKI</h3>
-                <p class="text-subtitle text-muted">Mahasiswa</p>
+                <h3>List RPS</h3>
+                <p class="text-subtitle text-muted">List Daftar RPS JSI Unand</p>
             </div>
             <div class="col-12 col-md-6 order-md-2 order-first">
                 <nav aria-label="breadcrumb" class='breadcrumb-header'>
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item active" aria-current="page">Mahasiswa</li>
+                        <li class="breadcrumb-item"><a href="/mahasiswa">Mahasiswa</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">List RPS</li>
                     </ol>
                 </nav>
             </div>
@@ -59,16 +61,38 @@
     </div>
     <section class="section">
         <div class="card">
-            <div class="card-content"></div>
-            <img src="assets/images/samples/unand.png" class="card-img-top img-fluid"
-                            alt="singleminded">
             <div class="card-body">
-                <h4 class="card-title">Selamat Datang!</h4>
-                <p class="card-text">
-                    LOKI merupakan website manajemen RPS JSI Unand.
-                    Silahkan gunakan button di bawah untuk mencari RPS.
-                </p>
-                <a href="/mahasiswa-listrps" class="btn btn-secondary">Cari RPS</a>
+                <table class='table table-striped' id="table1">
+                    <thead>
+                        <tr>
+                            <th>Kode Matkul</th>
+                            <th>Nama Matkul</th>
+                            <th>Dosen Pengampu</th>
+                            <th>Semester</th>
+                            <th>Detail</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>JSI101</td>
+                            <td>Dasar Pemrograman</td>
+                            <td>Hafid Yoza</td>
+                            <td>1</td>
+                            <td>
+                                <a href="/mahasiswa-detailrps" class="badge bg-info">See more</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>TSI204</td>
+                            <td>Perancangan Basis Data</td>
+                            <td>Rahmatika Pratama Santi</td>
+                            <td>4</td>
+                            <td>
+                                <a href="/mahasiswa-detailrps" class="badge bg-info">See more</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>

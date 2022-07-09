@@ -27,16 +27,16 @@ app.get('/mahasiswa', function (req, res) {
   res.render('mhs-dashboard')
 })
 
+app.get('/mahasiswa-listrps', function (req, res) {
+  res.render('mhs-list_rps')
+})
+
 app.get('/mahasiswa-detailrps', function (req, res) {
-  res.render('mhs-rps')
+  res.render('mhs-detail_rps')
 })
 
-app.get('/admin/home', function (req, res) {
-  res.render('admin-home')
-})
-
-app.get('/admin/home', function (req, res) {
-  res.render('/Admin/home')
+app.get('/admin', function (req, res) {
+  res.render('admin-dashboard')
 })
 
 app.listen(port);
